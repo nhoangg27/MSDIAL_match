@@ -7,7 +7,7 @@
 # Working directories
 msdial_file = r'E:\SteroidXtract_MSDIAL\MS_DIAL.csv' # Processed feature table from MS-DIAL
 input_dir = r'E:\SteroidXtract_MSDIAL\SteroidXtract_predictions' # Path to SteroidXtract predictions
-output_dir = r'E:\SteroidXtract_MSDIAL' # Output data path
+output_dir = r'E:\SteroidXtract_MSDIAL\Output' # Output data path
 
 # Parameter settings
 rt_tol = 0.3 # RT tolerance in minutes
