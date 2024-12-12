@@ -9,6 +9,10 @@ msdial_file = r'E:\SteroidXtract_MSDIAL\MS_DIAL.csv' # Processed feature table f
 input_dir = r'E:\SteroidXtract_MSDIAL\SteroidXtract_predictions' # Path to SteroidXtract predictions
 output_dir = r'E:\SteroidXtract_MSDIAL\Output' # Output data path
 
+# Ensure output directory exists
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+
 # Parameter settings
 rt_tol = 0.3 # RT tolerance in minutes
 mz_tol = 0.01 # Precursor m/z tolerance
