@@ -22,7 +22,7 @@ The `Data` folder contains demo data for testing the script:
 - **SteroidXtract_prediction**: SteroidXtract prediction files.
 - **MS-DIAL.csv**: Sample processed MS-DIAL feature table.
 
-# Processed MS-DIAL Feature Table
+## Processed MS-DIAL Feature Table
 In the processed MS-DIAL feature table:
 - **MB = GOOD** means that the maximum intensity across all samples for a feature is greater than three times the intensity of the method blank.
 - **RT = GOOD** means that the feature elutes before 23 minutes, which is when the gradient ends.
