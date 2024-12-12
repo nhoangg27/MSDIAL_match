@@ -15,6 +15,13 @@ It identifies matching features based on:
 1. An updated MS-DIAL feature table with added prediction scores and source file tracking.
 2. A filtered feature table containing positive predictions only.
 
+## Data
+
+The `Data` folder contains demo data for testing the script:
+- **Output**: Output directory with results.
+- **SteroidXtract_prediction**: SteroidXtract prediction files.
+- **MS-DIAL.csv**: Sample processed MS-DIAL feature table.
+
 ## Usage
 ### Input Parameters
 - **`msdial_file`**: File path to the processed MS-DIAL feature table (CSV format).
