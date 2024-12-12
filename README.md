@@ -47,7 +47,7 @@ In the processed MS-DIAL feature table:
 ```python
 msdial_file = r'E:\SteroidXtract_MSDIAL\MS_DIAL.csv'
 input_dir = r'E:\SteroidXtract_MSDIAL\SteroidXtract_predictions'
-output_dir = r'E:\SteroidXtract_MSDIAL'
+output_dir = r'E:\SteroidXtract_MSDIAL\Output'
 
 rt_tol = 0.3  # RT tolerance in minutes
 mz_tol = 0.01 # Precursor m/z tolerance
